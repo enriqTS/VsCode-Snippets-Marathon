@@ -1,0 +1,35 @@
+{
+	"Codigo Padrao Cpp": {
+		"prefix": "cpp",
+		"body": [
+			"#include <bits/stdc++.h>\n",
+			"#define ll             long long int",
+			"#define f              first",
+			"#define s              second ",
+			"#define pb             push_back",
+			"#define bug(...)       __f (#__VA_ARGS__, __VA_ARGS__) //Debugger",
+			"#define endl           \"\\n\"",
+            "#define double         long double",
+            "#define print(a)       for(auto x : a) cout << x << \" \" ; cout << endl //Vector",
+            "#define print1(a)      for(auto x : a) cout << x.f << \" \" << x.s << endl //Pair",
+			"#define print2(a,x,y)  for(int i = x; i < y; i++) cout<< a[i]<< \" \"; cout << endl //Seção de um vetor\n",
+			"using namespace std;\n", 
+			"template <typename Arg1>",
+			"void __f (const char* name, Arg1&& arg1) { cout << name << \":\" << arg1 << endl; }",
+			"template <typename Arg1, typename... Args>",
+			"void __f (const char* names, Arg1&& arg1, Args&&... args)",
+			"{",
+			"\tconst char* comma = strchr (names + 1, \",\");",
+			"\tcout.write (names, comma - names) <<  \":\" << arg1 << \"|\" ; __f (comma + 1, args...);",
+			"}\n",
+			"int main() {",
+			"\tios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);",
+			"\tclock_t z = clock();\n",
+			"\n",
+			"\tcerr << \"Run Time : \" << ((double)(clock() - z) / CLOCKS_PER_SEC);\n",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Codigo padrao cpp"
+	}
+}
